@@ -8,8 +8,13 @@
     xmlns:units="clr-namespace:jamesblog.UI.Units"
     mc:Ignorable="d">
 
-    <Grid>
-        <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+    <Grid
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
         <units:MenuList ItemsSource="{x:Binding Menus}"/>
+        <TextBlock Text="Hello, world!" Margin="20" FontSize="30" />
+        
     </Grid>
 </Page>
