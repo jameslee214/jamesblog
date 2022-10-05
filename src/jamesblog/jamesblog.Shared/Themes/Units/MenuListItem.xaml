@@ -3,12 +3,33 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:units="clr-namespace:jamesblog.UI.Units">
 
+    <Style TargetType="TextBlock" x:Key="Name">
+        <Setter Property="Margin" Value="50"/>
+    </Style>
+
     <Style TargetType="units:MenuListItem">
+        <Setter Property="Background" Value="Red"/>
+        <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="units:MenuListItem">
-                    <Grid>
-                        <TextBlock Text="{x:Binding Name}"/>
+                    <Grid Background="{TemplateBinding Background}">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="Background" Value="#191919"/>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <VisualState Name="PointerOver">
+                                    <VisualState.Setters>
+                                        <Setter Target="BackgroundElement.Background" Property="Background" Value="#333333"/>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <TextBlock Style="{StaticResource Name}"
+                                   Text="{x:Binding Name}"/>
                     </Grid>
                 </ControlTemplate>
             </Setter.Value>
