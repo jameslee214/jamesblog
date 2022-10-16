@@ -1,8 +1,0 @@
-<ResourceDictionary
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="ms-appx:///Themes/Units/MenuListItem.xaml" />
-        <ResourceDictionary Source="ms-appx:///Themes/Units/MenuList.xaml" />
-    </ResourceDictionary.MergedDictionaries>
-</ResourceDictionary>
