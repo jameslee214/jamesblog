@@ -96,7 +96,7 @@ namespace Jamesweb.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51820)
+                        .HasMaxLength(50910)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
@@ -145,7 +145,7 @@ namespace Jamesweb.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51820)
+                        .HasMaxLength(50910)
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("DataProtected")
@@ -187,7 +187,7 @@ namespace Jamesweb.Server.Data.Migrations
 
                     b.Property<string>("Data")
                         .IsRequired()
-                        .HasMaxLength(51820)
+                        .HasMaxLength(50910)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Description")

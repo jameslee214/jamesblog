@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33006.217
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Server", "Jamesweb\Server\Jamesweb.Server.csproj", "{B1101B60-EABC-47FF-96B6-BC34C085AB35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Server", "Jamesweb\Server\Jamesweb.Server.csproj", "{127DB3CF-C58C-4C45-9193-D09586B848CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Client", "Jamesweb\Client\Jamesweb.Client.csproj", "{13F0502E-620A-4EC5-81BF-A530BDF22D6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Client", "Jamesweb\Client\Jamesweb.Client.csproj", "{5D44450B-9B2E-4F78-AA72-8782782D477E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Shared", "Jamesweb\Shared\Jamesweb.Shared.csproj", "{26BA3287-F73C-4516-9812-10D6CDF1DAD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jamesweb.Shared", "Jamesweb\Shared\Jamesweb.Shared.csproj", "{F921F285-3624-48E0-889E-855817D10865}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -33,5 +33,17 @@ Global
 		{26BA3287-F73C-4516-9812-10D6CDF1DAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26BA3287-F73C-4516-9812-10D6CDF1DAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26BA3287-F73C-4516-9812-10D6CDF1DAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127DB3CF-C58C-4C45-9193-D09586B848CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127DB3CF-C58C-4C45-9193-D09586B848CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127DB3CF-C58C-4C45-9193-D09586B848CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127DB3CF-C58C-4C45-9193-D09586B848CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D44450B-9B2E-4F78-AA72-8782782D477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D44450B-9B2E-4F78-AA72-8782782D477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D44450B-9B2E-4F78-AA72-8782782D477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D44450B-9B2E-4F78-AA72-8782782D477E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F921F285-3624-48E0-889E-855817D10865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F921F285-3624-48E0-889E-855817D10865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F921F285-3624-48E0-889E-855817D10865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F921F285-3624-48E0-889E-855817D10865}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

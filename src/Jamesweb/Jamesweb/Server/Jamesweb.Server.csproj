@@ -4,13 +4,17 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>Jamesweb.Server-65d660fd-0e76-4047-bda3-3a5815f97859</UserSecretsId>
+    <UserSecretsId>Jamesweb.Server-027c4716-45d8-4843-8f5e-137e1d4e95a9</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Jamesweb.Client" />
+    <None Remove="Jamesweb.Shared" />
+  </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
   </ItemGroup>
